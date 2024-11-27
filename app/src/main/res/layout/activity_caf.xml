@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".caf">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background2" />
+
+    <Button
+        android:id="@+id/eng"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Engineering Cafeteria"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="301dp" />
+    <Button
+        android:id="@+id/med"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Medical Cafeteria"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="301dp" />
+    <Button
+        android:id="@+id/st"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Stadium's Cafeteria"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="301dp" />
+    <Button
+        android:id="@+id/mall"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Mall's Cafeteria"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="301dp" />
+    <Button
+        android:id="@+id/shaks"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Shacks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <ImageButton
+        android:id="@+id/backcaf"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:foreground="@drawable/back_arrow_left_icon"
+        android:foregroundGravity="fill"
+        android:background="@drawable/back_button_background"
+        android:padding="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"/>
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".plan">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background2" />
+    <ImageButton
+        android:id="@+id/backplan"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:foreground="@drawable/back_arrow_left_icon"
+        android:foregroundGravity="fill"
+        android:background="@drawable/back_button_background"
+        android:padding="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="130dp"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/lake"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="The lake"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="195dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/lib"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Library"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="195dp"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:id="@+id/yard"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Football stadium"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="195dp"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:id="@+id/gym"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Gym"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="195dp"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:id="@+id/fin"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Financial affairs"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="195dp"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:id="@+id/pres"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="University presedency"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="195dp"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

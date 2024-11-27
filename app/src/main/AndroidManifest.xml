@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo7"
+        android:label="Intelligence"
+        android:roundIcon="@drawable/logo7"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.Intelligence"
+        tools:targetApi="31">
+        <activity
+            android:name=".pdf"
+            android:exported="false" />
+        <activity
+            android:name=".chatbot"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".labs"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".others"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".electives"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".caf"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".amp"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".med"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".eng"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".location"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".plan"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".year4"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".year3"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".year2"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".year1"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".years"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".gpa"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".about_us"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".main"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".splash"
+            android:exported="true"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

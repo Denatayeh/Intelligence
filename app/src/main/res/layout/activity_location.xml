@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".location">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:src="@drawable/lasted"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"/>
+    <ImageButton
+        android:id="@+id/backloc"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:foreground="@drawable/back_arrow_left_icon"
+        android:foregroundGravity="fill"
+        android:background="@drawable/back_button_background"
+        android:padding="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="300dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/med"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="Medical Buildings" />
+    <Button
+        android:id="@+id/eng"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="Engineering Buildings" />
+    <Button
+        android:id="@+id/dean"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="Deanship (SA1)" />
+    <Button
+        android:id="@+id/hall"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="Lectures Halls Complex" />
+    <Button
+        android:id="@+id/amp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="Auditoriums" />
+
+    <Button
+        android:id="@+id/caf"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="Cafeterias" />
+        <Button
+            android:id="@+id/labs"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:text="IT Labs" />
+        <Button
+            android:id="@+id/oth"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:text="Others" />
+
+         </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

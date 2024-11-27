@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".year1">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background2" />
+    <ImageButton
+        android:id="@+id/backfs4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:foreground="@drawable/back_arrow_left_icon"
+        android:foregroundGravity="fill"
+        android:background="@drawable/back_button_background"
+        android:padding="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="45dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+         <Button
+            android:id="@+id/arch"
+             android:layout_width="250dp"
+             android:layout_height="65dp"
+            android:text="Computer Architecture"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/crypto"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:text="Cryptography"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/bio"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:text="Computational Biology"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/dist"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:text="Distributed Computer Systems"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/wireless"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:text="Wireless Networks"
+            android:layout_centerHorizontal="true"/>
+
+         <Button
+             android:id="@+id/webtech"
+             android:layout_width="250dp"
+             android:layout_height="65dp"
+             android:text="Web Technologies"
+             android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

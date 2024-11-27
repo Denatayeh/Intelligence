@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".amp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background2" />
+    <ImageButton
+        android:id="@+id/backlab"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:foreground="@drawable/back_arrow_left_icon"
+        android:foregroundGravity="fill"
+        android:background="@drawable/back_button_background"
+        android:padding="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/cs1"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CS01-PH3L-1"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cs2"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CS02-PH1L-1"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cs3"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CS03-PH1L-1"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cs4"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CS04-M1L-1"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cs5"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CS05-M2L-3"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cs6"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CS06-C5L1"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cis01"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CIS01-PH3L-1"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cis02"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CIS02-PH3L-1"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cis03"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CIS03-PH1L-1"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cis04"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CIS04-G2L2"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cis05"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CIS05-G2L2"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cis06"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CIS06-N2L1"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cis07"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CIS07-A2L2"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/nes01"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="NES01-E2L3"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/nes02"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="NES02-E1L3"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/nes03"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="NES03-N1L0"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+            android:id="@+id/nes04"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="NES04-G2L2"
+            android:layout_centerHorizontal="true"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cpe01"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CPE01-E3L1"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cpe02"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CPE02-E3L1"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cpe05"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CPE05-E4L1"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cpe06"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CPE06-M7L2"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cpe07"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CPE07-M7L2"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cpe08"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CPE08-E4L2"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/cpe09"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="CPE09-E4L2"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/se01"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="SE01-N1L0"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/se02"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="SE02-N1L0"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/se03"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="SE03-N1L0"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/se04"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="SE04-C1L2"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+            <Button
+                android:id="@+id/se05"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="SE05-C2L2"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="229dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".year1">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background2" />
+    <ImageButton
+        android:id="@+id/backfs3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:foreground="@drawable/back_arrow_left_icon"
+        android:foregroundGravity="fill"
+        android:background="@drawable/back_button_background"
+        android:padding="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="45dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/dlab"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text=" Digital Logic Design Lab"
+        android:layout_marginTop="400px"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/orga"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Computer Organization and Design"
+        android:layout_marginTop="550px"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/hci"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Human-Computer Interaction"
+        android:layout_marginTop="700px"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/net"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Computer Networks"
+        android:layout_marginTop="850px"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/swe"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Fundamentals of Software Engineering"
+        android:layout_marginTop="1000px"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/ai"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Artificial Intelligence"
+        android:layout_marginTop="400px"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/os"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Operating Systems"
+        android:layout_marginTop="550px"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/multi"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Fundamentals of Multimedia"
+        android:layout_marginTop="700px"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/sys"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="System Analysis and Design"
+        android:layout_marginTop="850px"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>
