@@ -76,7 +76,7 @@ public class pdf extends AppCompatActivity {
         }
         op_list=findViewById(R.id.op_spinner);
 
-        ArrayAdapter ad = new ArrayAdapter<>(pdf.this, android.R.layout.simple_list_item_1, op);
+        ArrayAdapter ad = new ArrayAdapter<>(pdf.this, R.layout.items, op);
         op_list.setAdapter(ad);
         up.setOnClickListener(new View.OnClickListener() {
             @Override
