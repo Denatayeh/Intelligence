@@ -5,4 +5,9 @@
         <item name="overlapAnchor">true</item>
 
     </style>
+    <style name="SpinnerTheme2" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/arrow2</item>
+        <item name="overlapAnchor">true</item>
+
+    </style>
 </resources>
