@@ -32,13 +32,27 @@ public class years extends AppCompatActivity {
 
         int height= this.getResources().getDisplayMetrics().heightPixels;
 
+        Intent intent = getIntent();
+        boolean value = intent.getBooleanExtra("lang",false);
+
+        if (value){
+            y1=findViewById(R.id.y1a);
+            y2=findViewById(R.id.y2a);
+            y3=findViewById(R.id.y3a);
+            y4=findViewById(R.id.y4a);
+            elc=findViewById(R.id.elca);
+        }
+        y1.setVisibility(View.VISIBLE);
+        y2.setVisibility(View.VISIBLE);
+        y3.setVisibility(View.VISIBLE);
+        y4.setVisibility(View.VISIBLE);
+        elc.setVisibility(View.VISIBLE);
+
         setMargins(y1, (int) ceil(height*0.10));
         setMargins(y2, (int) ceil(height*0.30));
         setMargins(y3, (int) ceil(height*0.50));
         setMargins(y4, (int) ceil(height*0.70));
         setMargins(elc, (int) ceil(height*0.90));
-        Intent intent = getIntent();
-        boolean value = intent.getBooleanExtra("lang",false);
 
         y1.setOnClickListener(new View.OnClickListener() {
             @Override

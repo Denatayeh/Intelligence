@@ -45,7 +45,7 @@
 
             <TextView
                 android:id="@+id/course_name_label"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:text="Enter your courses marks one at a time, Tap a course to delete it."
@@ -55,7 +55,7 @@
 
             <TextView
                 android:id="@+id/name_label"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_marginTop="65dp"
@@ -77,7 +77,7 @@
 
             <TextView
                 android:id="@+id/credits_label"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_marginTop="130dp"
@@ -95,7 +95,7 @@
 
             <TextView
                 android:id="@+id/letter_grade_label"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_marginTop="195dp"
@@ -224,7 +224,7 @@
             android:textColorHint="@color/lightgrey" />
 
         <TextView
-            android:id="@+id/gpa_result_label"
+            android:id="@+id/gpa_result_label1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -233,10 +233,11 @@
             android:layout_marginBottom="30dp"
             android:padding="5dp"
             android:text="Calculated GPA:"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone"/>
 
         <TextView
-            android:id="@+id/gpa_result_text"
+            android:id="@+id/gpa_result_text1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -244,6 +245,31 @@
             android:layout_marginLeft="130dp"
             android:layout_marginBottom="30dp"
             android:padding="5dp"
-            android:text="-" />
+            android:text="-"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/gpa_result_label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/gpa_result_text2"
+            android:layout_marginBottom="30dp"
+            android:padding="5dp"
+            android:text="المعدل المحسوب:"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/gpa_result_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="30dp"
+            android:padding="5dp"
+            android:text="-"
+            android:visibility="gone"/>
     </RelativeLayout>
 </RelativeLayout>

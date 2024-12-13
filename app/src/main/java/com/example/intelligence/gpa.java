@@ -3,6 +3,7 @@ package com.example.intelligence;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -43,7 +44,7 @@ public class gpa extends AppCompatActivity {
         letterGradeSpinner = findViewById(R.id.letter_grade_spinner);
         creditSpinner = findViewById(R.id.op_spinner);
         calculateGpaButton = findViewById(R.id.calculate_gpa_button);
-        gpaResultText = findViewById(R.id.gpa_result_text);
+        gpaResultText = findViewById(R.id.gpa_result_text1);
         cgradeInput = findViewById(R.id.c_grade_input);
         choursInput = findViewById(R.id.c_hours_input);
         back = findViewById(R.id.backgpa);
@@ -56,7 +57,7 @@ public class gpa extends AppCompatActivity {
         grade=findViewById(R.id.letter_grade_label);
         cgrade=findViewById(R.id.c_grade_label);
         ccredits=findViewById(R.id.c_hours_label);
-        gpares=findViewById(R.id.gpa_result_label);
+        gpares=findViewById(R.id.gpa_result_label1);
         res = new ArrayList<>();
         savec = new ArrayList<>();
         savem = new ArrayList<>();
@@ -68,22 +69,30 @@ public class gpa extends AppCompatActivity {
         if(value){
             text1.setText("قم بإضافة علامات المساق واحداّ كل مرة, و قم بالضغط على المساق للقيام بحذفه.");
             course_name.setText("اسم المساق");
+            course_name.setGravity(Gravity.RIGHT);
             nameInput.setHint("أدخل إسم المساق(اختياري)");
             credits.setText("الساعات المعتمدة");
+            credits.setGravity(Gravity.RIGHT);
             grade.setText("رمز العلامة");
+            grade.setGravity(Gravity.RIGHT);
             addCourse.setText("إضافة مساق");
             clear.setText("مسح الكل");
             cgrade.setText("المعدل التراكمي:");
             ccredits.setText("الساعات التراكمية:");
             calculateGpaButton.setText("حساب المعدل");
-            gpares.setText("المعدل المحسوب:");
+
             valid="الرجاء إدخال معدل صحيح";
             name="الإسم: " ;
             mark="العلامة: ";
             credit="الساعات: ";
             course_added="تم إضافة المساق بنجاح";
 
+            gpaResultText = findViewById(R.id.gpa_result_text2);
+            gpares=findViewById(R.id.gpa_result_label2);
         }
+
+        gpaResultText.setVisibility(View.VISIBLE);
+        gpares.setVisibility(View.VISIBLE);
         clear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -98,7 +107,7 @@ public class gpa extends AppCompatActivity {
                 ch = 0;
                 cgpa = 0;
                 ad.notifyDataSetChanged();
-                gpaResultText.setText("_");
+                gpaResultText.setText("-");
             }
         });
 
