@@ -239,7 +239,7 @@ public class pdf extends AppCompatActivity {
 
     public void gemini(String inputin) {
         sw=false;
-        GenerativeModel gm = new GenerativeModel("gemini-1.5-flash", "AIzaSyDRSwgdDw0TItr9Jbz0pZdisYDWbdq6EIg");
+        GenerativeModel gm = new GenerativeModel("gemini-1.5-flash", "your api");
         GenerativeModelFutures model = GenerativeModelFutures.from(gm);
         Content content = new Content.Builder().addText(inputin).build();
 

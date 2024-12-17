@@ -73,7 +73,7 @@ public class chatbot extends AppCompatActivity {  // Renamed class to match the 
     }
 
     public void gemini(String inputin){
-        GenerativeModel gm = new GenerativeModel(/* modelName */ "gemini-1.5-flash", "AIzaSyDRSwgdDw0TItr9Jbz0pZdisYDWbdq6EIg");
+        GenerativeModel gm = new GenerativeModel(/* modelName */ "gemini-1.5-flash", "your api");
 
         GenerativeModelFutures model = GenerativeModelFutures.from(gm);
         Content content = new Content.Builder()
