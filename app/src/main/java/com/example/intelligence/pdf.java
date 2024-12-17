@@ -31,7 +31,6 @@ import com.itextpdf.text.pdf.parser.PdfTextExtractor;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 
 import javax.annotation.Nullable;
 
